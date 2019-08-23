@@ -1,6 +1,11 @@
 
+## Story 
+Marketing team want to offer promotions as an incentive for to purchase these items.
 
-# Run Test
+If you spend over £60, then you get 10% off your purchase
+If you buy 2 or more travel card holders then the price drops to £8.50.
+
+## Run Test
 mvn clean test
 
 
