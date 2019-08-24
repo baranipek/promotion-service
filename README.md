@@ -12,9 +12,9 @@ mvn clean test
 ## Notes
 The promotion rules **have an order** which will influence the behaviour and checkout value.
 
-The promotion rules are items can be loaded from file or any database.
+The promotion rules are hardcoded in test classed now  can  can be loaded from file or any database , the same for items.
 
 Promotion rule has  two attributes:
-1. A match  (`Predicate<Basket>`)
-2. An change in the basket  (`Function<Basket, Double>`)
+1. A match  (`Predicate<Basket>`) 
+2. An change value in the basket  (`Function<Basket, Double>`)
 
