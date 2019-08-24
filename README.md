@@ -17,4 +17,5 @@ The promotion rules are hardcoded in test classed now  can  can be loaded from f
 Promotion rule has  two attributes:
 1. A match  (`Predicate<Basket>`) 
 2. An change value in the basket  (`Function<Basket, Double>`)
+3. Promotion rule description 
 
